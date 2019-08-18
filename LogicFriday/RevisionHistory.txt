@@ -1,0 +1,32 @@
+Revision History
+Version 1.1.4 (9 November 2012)
+    FIXED: Several data-dependent problems that could cause a crash when mapping to gates.
+Version 1.1.3 (25 March 2011)
+    FIXED: A problem that could cause errors in a mapped gate diagram under certain circumstances. The problem affected multiple output functions with similar output names, if the names appeared in a certain order. Errors would have been apparent as misplaced or missing outputs.
+Version 1.1.2 (27 November 2010)
+    FIXED: Truth table import. Corrected a problem limiting output names to 7 characters instead of 8.
+    FIXED: Minor cosmetic bugs.
+Version 1.1.1 (11 September 2009)
+    FIXED: Equation entry. Now works correctly. (Was broken in 1.1.0.)
+    FIXED: Truth table export. Several errors in exported .csv files have been corrected.
+Version 1.1.0 (8 August 2009)
+    NEW: Truth table import. You can now create a truth table in a spreadsheet application, save it as a CSV file, and import it into Logic Friday.
+    NEW: Minimization mode choice. In problems with multiple outputs, you can now select independent or joint minimization. Independent minimization strictly minimizes each output using as many prime implicants as necessary. Joint minimization minimizes the number of prime implicants but may not strictly minimize every output.
+    IMPROVED: Truth table editing. You can now select blocks of outputs to edit using standard selection controls (shift-click, ctrl-click, etc.). In problems with multiple outputs, any output column can be masked to protect it from changes.
+    IMPROVED: C lookup functions. In problems with multiple outputs, an independent LU function is generated for each output. Formerly this feature worked only for single-output problems.
+    FIXED: File locking. The program no longer hangs if internal files are locked by another program.
+    FIXED: Scroll position memory. The scroll position in a truth table open for editing is now saved when the app is minimized.
+    FIXED: Truth table display. Data is now correctly refreshed when truth table editing is started and then canceled.
+    FIXED: Output gate diagrams. A problem that could cause errors in the output diagram under certain conditions has been corrected.
+    FIXED: Truth table display. The confusing display of zeroes in minimized tables with multiple outputs has been eliminated. Now, If the prime implicant is not required for an output, the output cell is empty.
+Version 1.03 (14 February 2009)
+    FIXED: Corrected a problem that prevented the app from minimizing or mapping gates if short filename generation was disabled in the registry. Observable symptom of the problem was a "File Error 4" message on attempting to minimize a function.
+    FIXED: The .lfcn filename association now works correctly. Double-clicking the filename opens the file in Logic Friday.
+    FIXED: Several minor cosmetic issues.
+Version 1.02 (15 September 2008)
+    FIXED: Corrected a problem that could crash the app when mapping to gates if the function had multiple outputs, and three or more outputs were identical.
+    FIXED: Various minor problems in file-save operations, menus, and split-screen behavior.
+Version 1.01 (16 July 2007)
+    FIXED: Corrected a problem that could crash the app when mapping to gates if the function had more outputs than inputs.
+Version 1.00 (20 January 2007)
+    Initial release.
