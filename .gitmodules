@@ -1,0 +1,3 @@
+[submodule "pyeda"]
+	path = pyeda
+	url = https://github.com/cjdrake/pyeda
