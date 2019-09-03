@@ -1,3 +1,6 @@
 [submodule "pyeda"]
 	path = pyeda
 	url = https://github.com/cjdrake/pyeda
+[submodule "logicmin"]
+	path = logicmin
+	url = https://github.com/dreylago/logicmin

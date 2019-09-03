@@ -6,3 +6,4 @@ A repository containing off-the-shelf programs for solving the problem of minimi
  * LogicFriday
  * eqntott
  * pyeda
+ * logicmin
