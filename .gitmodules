@@ -4,3 +4,6 @@
 [submodule "logicmin"]
 	path = logicmin
 	url = https://github.com/dreylago/logicmin
+[submodule "espresso-ab-1.0"]
+	path = espresso-ab-1.0
+	url = https://github.com/psksvp/espresso-ab-1.0
