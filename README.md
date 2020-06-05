@@ -7,3 +7,4 @@ A repository containing off-the-shelf programs for solving the logic minimizatio
  * eqntott
  * pyeda
  * logicmin
+ * espresso-ab-1.0
